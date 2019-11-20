@@ -101,7 +101,7 @@ return [
     'schemas' => [
         'default' => [
             'query' => [
-                // 'example_query' => ExampleQuery::class,
+                'calculatePrice' => App\GraphQL\Queries\PriceIndex::class,
             ],
             'mutation' => [
                 // 'example_mutation'  => ExampleMutation::class,
